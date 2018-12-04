@@ -12,9 +12,7 @@ setup(name='kube_gcl',
 
       entry_points = {
         'console_scripts' : [
-            'kube-gcl=gcl.printer:main',
-            'gcl-doc=gcl.doc:main',
-            'gcl2json=gcl.to_json:main',
+            'kube_gcl=kube_gcl.kube_gcl:main',
         ],
 	},
 
